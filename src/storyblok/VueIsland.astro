@@ -1,0 +1,10 @@
+---
+import { storyblokEditable } from '@storyblok/astro'
+import VueIsland from './VueIsland.vue';
+
+const { blok } = Astro.props
+---
+
+<div {...storyblokEditable(blok)}>
+  <VueIsland blok={blok} client:visible />
+</div>
