@@ -1,1 +1,1 @@
-# The Storyblok Astro Ultimate Tutorial: Part 1
+# Astro Render Richtext in Vue Dynamic Island Example
